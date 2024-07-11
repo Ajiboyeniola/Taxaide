@@ -4,7 +4,7 @@ import { businessServices } from "../constants";
 const Features = () => {
   const [selectedService, setSelectedService] = useState(businessServices[0]);
   return (
-    <div className="container mx-auto pt-12 pb-6 px-8 lg:px-[90px] flex items-center justify-between">
+    <div className="container mx-auto pt-12 pb-2 px-8 lg:px-[90px] flex items-center justify-between">
       <div className="">
         <div className="flex flex-col items-center justify-center gap-10 lg:hidden">
           {businessServices.map((service, i) => (

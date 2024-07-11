@@ -68,18 +68,21 @@ export const services = [
 
 export const businessServices = [
   {
-    title: "Pay bills",
-    description: "Paying your bills has never been so easy.",
+    title: "Payment",
+    description:
+      "No more checks, no more envelopes and stamps, you can pay your employees anytime, anywhere",
     image: payBills,
   },
   {
-    title: "Buy Airtime & Data",
-    description: "Never get caught with low airtime and data again!",
+    title: "Payroll",
+    description:
+      "End-to-end automation of payroll management for organizations, complying with Nigerian tax law and tax optimizations for the user.",
     image: airtime,
   },
   {
-    title: "Money Transfer",
-    description: "Transferring money is now hassle-free.",
+    title: "Payslip",
+    description:
+      "Generates automated TaxiTPaySlip email notifications for each employee/user.",
     image: moneyTransfer,
   },
   {

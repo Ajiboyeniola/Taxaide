@@ -36,18 +36,6 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* Nav Items */}
-          {/* <ul className="hidden lg:flex ml-14 space-x-12">
-            {navItems.map((item, i) => (
-              <li key={i}>
-                <a href={item.href} className="text-base font-semibold">
-                  {" "}
-                  {item.label}{" "}
-                </a>
-              </li>
-            ))}
-          </ul> */}
-
           {/* Login / create acount */}
           <div className="hidden lg:flex gap-5 justify-center items-center ">
             <ul className="hidden lg:flex gap-5">
