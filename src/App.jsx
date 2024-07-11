@@ -1,27 +1,25 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Bussiness } from "./pages/bussiness";
+import Individual from "./pages/individual";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import PaymentTools from "./components/PaymentTools";
-import Features from "./components/Features";
-import Transact from "./components/Transact";
-import SendFunds from "./components/SendFunds";
+import NoPage from "./pages/noPage";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <div className="bg-[#060809] ">
-        <HeroSection />
-      </div>
+      <BrowserRouter>
+        <Navbar />
 
-      <div className="">
-        <PaymentTools />
-        <Features />
-        <Transact />
-        <SendFunds />
+        <Routes>
+          <Route index path="/" element={<Individual />} />
+          <Route path="/individual" element={<Individual />} />
+          <Route path="/business" element={<Bussiness />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Routes>
+
         <Footer />
-      </div>
+      </BrowserRouter>
     </>
   );
 };

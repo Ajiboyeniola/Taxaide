@@ -9,7 +9,7 @@ import phone, {
 
 const Transact = () => {
   return (
-    <div className="container mx-auto pt-12 pb-6 px-[90px] flex flex-col-reverse lg:flex-row  items-center gap-5 lg:gap-40">
+    <div className="container mx-auto pt-12 pb-6 px-8 lg:px-[90px] flex flex-col-reverse lg:flex-row  items-center gap-5 lg:gap-40">
       <div className="bg-[#F1F1F1] rounded-[8px] flex justify-center h-[320px] lg:h-[500px] px-24 pt-14">
         <img src={phone} alt="phone" className="w-[307px] object-contain" />
       </div>

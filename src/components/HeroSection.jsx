@@ -1,7 +1,7 @@
 import image from "../assets/hero.png";
 const HeroSection = () => {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center text-white pt-12 pb-6 px-[90px]">
+    <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center text-white pt-12 pb-6 px-8 lg:px-[90px]">
       <div className="w-full lg:w-1/2 flex flex-col gap-4 items-center lg:items-start">
         {/* flex flex-col gap-8 */}
         <div className="flex flex-col gap-4 text-center lg:text-left ">

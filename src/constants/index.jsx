@@ -14,12 +14,13 @@ import appstore from "../assets/appstore.svg";
 import googleplay from "../assets/googleplay.svg";
 import paymentImage from "../assets/card.png";
 import payment from "../assets/payment.png";
+import embellishment from "../assets/embellishment.svg";
 
 export const navItems = [
-  { label: "For Individuals", href: "#" },
-  { label: "For Businesses", href: "#" },
-  { label: "About Us", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "For Individuals", href: "/individual" },
+  { label: "For Businesses", href: "/business" },
+  { label: "About Us", href: "/" },
+  { label: "Contact", href: "/" },
 ];
 
 export const features = [
@@ -74,5 +75,6 @@ export {
   googleplay,
   paymentImage,
   payment,
+  embellishment,
 };
 export default phone;

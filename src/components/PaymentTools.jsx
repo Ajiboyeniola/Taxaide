@@ -2,7 +2,7 @@ import { features } from "../constants";
 
 const PaymentTools = () => {
   return (
-    <div className="container mx-auto pt-12 pb-6 px-[90px] flex flex-col gap-10">
+    <div className="container mx-auto pt-12 pb-6 px-8 lg:px-[90px] flex flex-col gap-10">
       <div className="flex flex-col gap-2 text-[#4F4F4F] text-center">
         <h6 className="text-[26px] leading-[36px] font-semibold ">
           Payments tools designed for you

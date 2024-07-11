@@ -5,7 +5,7 @@ import twitter from "../assets/twitter.svg";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto pt-12 pb-12 px-[90px] flex flex-col lg:flex-row justify-between gap-12">
+    <div className="container mx-auto pt-12 pb-12 px-8 lg:px-[90px] flex flex-col lg:flex-row justify-between gap-12">
       <div className="flex flex-col items-center lg:items-start gap-5">
         <div className="">
           <img src={logo} alt="logo" />

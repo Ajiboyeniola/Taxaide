@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/tpay.png";
 import { navItems } from "../constants";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -9,16 +10,20 @@ const Navbar = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 px-10 py-5 backdrop-blur-lg bg-[#060809] text-white">
+    <nav className="sticky top-0 z-50 px-8 py-5 backdrop-blur-lg bg-[#060809] text-white">
       <div className="container mx-auto relative text-base font-semibold">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex gap-8 items-center flex-shrink-0">
-            <img
-              src={logo}
-              alt="logo"
-              className="h-[42px] w-[93px] lg:h-[64px] lg:w-[163px]"
-            />
+            <Link to={"/"}>
+              {" "}
+              <img
+                src={logo}
+                alt="logo"
+                className="h-[42px] w-[93px] lg:h-[64px] lg:w-[163px]"
+              />
+            </Link>
+
             <ul className="hidden lg:flex gap-5">
               {navItems.slice(0, 2).map((item, i) => (
                 <li key={i}>
