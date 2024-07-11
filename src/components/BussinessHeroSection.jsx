@@ -3,10 +3,9 @@ import picture from "../assets/picture.jpg";
 
 const BussinessHeroSection = () => {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center text-white pt-12 pb-40 px-[90px] mb-96 relative">
+    <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center text-white pt-12 pb-40 px-[90px] mb-[244px] relative">
       <div className="z-10">
         <div className="w-full z-10 flex flex-col gap-4 items-center px-0 lg:px-48">
-          {/* flex flex-col gap-8 */}
           <div className="flex flex-col gap-4 text-center ">
             <h1 className="text-[46px] leading-[56px]">
               Manage payroll, compliance & HR in real time

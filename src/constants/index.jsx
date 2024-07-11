@@ -66,6 +66,30 @@ export const services = [
   },
 ];
 
+export const businessServices = [
+  {
+    title: "Pay bills",
+    description: "Paying your bills has never been so easy.",
+    image: payBills,
+  },
+  {
+    title: "Buy Airtime & Data",
+    description: "Never get caught with low airtime and data again!",
+    image: airtime,
+  },
+  {
+    title: "Money Transfer",
+    description: "Transferring money is now hassle-free.",
+    image: moneyTransfer,
+  },
+  {
+    title: "Reports",
+    description:
+      "Generates relevant reports, such as PAYE Returns for easy compliance with filing obligations.",
+    image: tollFee,
+  },
+];
+
 export {
   apple,
   google,
